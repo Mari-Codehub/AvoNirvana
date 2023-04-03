@@ -1,0 +1,291 @@
+/* || Specific Responsive for News Section 768px to 1300px */
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+  .news {
+    padding: 65px 3% 45px;
+  }
+
+  .news-container {
+    flex-wrap: wrap;
+  }
+
+  .news-container__main-news {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .news-container__news-img {
+    width: 392px;
+    height: 251px;
+  }
+
+  .news-container__news-description {
+    padding-top: 20px;
+  }
+
+  .news-container__other-description {
+    width: 80%;
+  }
+}
+
+/* || Responsive 768px to 1023px */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-nav {
+    padding: 15px 3%;
+  }
+
+  .header-box {
+    gap: 12px;
+  }
+
+  .svg-size {
+    width: 48px;
+    height: 48px;
+  }
+
+  .header-box__title {
+    font-size: 19px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-menu__burger-icon,
+  .header-menu__esc-icon {
+    right: 3%;
+  }
+
+  .hide-icon {
+    display: block;
+  }
+
+  .hero {
+    padding: 70px 3%;
+    display: block;
+    text-align: center;
+  }
+
+  .hero-describe__title {
+    max-width: 60%;
+    font-size: 45px;
+    margin: 0 auto;
+  }
+
+  .hero-describe__description {
+    font-size: 22px;
+    margin: 24px auto 32px;
+    max-width: 60%;
+  }
+
+  .hero-describe__button {
+    margin-bottom: 64px;
+  }
+
+  .hero-img-box {
+    min-width: 400px;
+  }
+  .hero-img-box > img {
+    width: 400px;
+    height: 552px;
+  }
+
+  .discover-describe {
+    flex-direction: column;
+  }
+
+  .discover-describe__img-box {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .discover-describe__img-box > img {
+    width: 100%;
+  }
+
+  .footer-box {
+    gap: 11px;
+  }
+
+  .svg-size1 {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+/* || Responsive max 767px */
+@media screen and (max-width: 767px) {
+  .header-nav {
+    padding: 15px 3%;
+  }
+
+  .header-box {
+    gap: 12px;
+  }
+
+  .svg-size {
+    width: 48px;
+    height: 48px;
+  }
+
+  .header-box__title {
+    font-size: 19px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-menu__burger-icon,
+  .header-menu__esc-icon {
+    right: 3%;
+  }
+
+  .hide-icon {
+    display: block;
+  }
+
+  .header-menu__burger-title {
+    font-size: 23px;
+    margin-bottom: 72px;
+  }
+
+  .hero {
+    padding: 45px 30px 70px;
+    display: block;
+    text-align: center;
+  }
+
+  .hero-describe__title {
+    width: 100%;
+    font-size: 34px;
+    margin: 0 auto;
+  }
+
+  .hero-describe__description {
+    font-size: 20px;
+    margin: 16px auto 24px;
+    width: 100%;
+  }
+
+  .hero-describe__button--margbot {
+    margin: 0 0 20px;
+  }
+
+  .hero-describe__button--margbot1 {
+    margin: 0 0 56px;
+  }
+
+  .hero-img-box {
+    min-width: 275px;
+  }
+
+  .hero-img-box > img {
+    width: 268px;
+    height: 370px;
+  }
+
+  .discover {
+    padding: 56px 3%;
+  }
+
+  .discover-describe {
+    flex-direction: column;
+  }
+
+  .discover-describe__img-box {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .discover-describe__img-box > img {
+    width: 100%;
+    height: 235px;
+  }
+
+  .discover-describe__text-box {
+    text-align: center;
+  }
+
+  .discover-describe__title {
+    font-size: 34px;
+  }
+
+  .discover-describe__description {
+    font-size: 17px;
+  }
+
+  .discover-img > img {
+    width: 100%;
+    height: 235px;
+  }
+
+  .news {
+    padding: 47px 3% 40px;
+  }
+
+  .news__title {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .news__div-box {
+    justify-content: center;
+    margin-bottom: 34px;
+  }
+
+  .news-container {
+    display: block;
+    text-align: center;
+  }
+
+  .news-container__news-box {
+    width: 100%;
+  }
+  .news-container__news-img {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .news-container__description,
+  .news-container__other-description {
+    width: 100%;
+  }
+
+  .news-container__news-description {
+    margin-bottom: 44px;
+  }
+
+  .news-container__other-blog {
+    display: block;
+  }
+
+  .news-container__other-box > img {
+    min-width: 65%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer-menu {
+    padding: 48px 3% 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    text-align: center;
+  }
+
+  .footer-box {
+    justify-content: center;
+    gap: 11px;
+  }
+
+  .footer-box__texts {
+    text-align: left;
+  }
+
+  .svg-size1 {
+    width: 48px;
+    height: 48px;
+  }
+}
